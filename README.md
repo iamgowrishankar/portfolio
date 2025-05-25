@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Gowri Shankar AK - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React showcasing my skills and experience as a Full Stack Developer.
 
-## Available Scripts
+## 🌐 Live Website
+**[https://iamgowrishankar.github.io/portfolio/](https://iamgowrishankar.github.io/portfolio/)**
 
-In the project directory, you can run:
+## 📋 About
+Professional portfolio featuring:
+- **5+ years** of Full Stack Development experience
+- Expertise in **React, PHP, Laravel, MySQL** and modern web technologies
+- Experience with **payment systems, e-invoicing compliance, CI/CD pipelines**
+- **Mobile-responsive design** with modern UI/UX
 
-### `npm start`
+## 🛠️ Built With
+- **React 19** - Frontend framework
+- **Tailwind CSS** - Styling and responsive design
+- **Lucide React** - Icons
+- **GitHub Pages** - Hosting and deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚡ Features
+- Responsive design (mobile, tablet, desktop)
+- Modern component-based architecture
+- Smooth scrolling navigation
+- Professional resume download
+- Contact form with direct links
+- SEO optimized
+- Fast loading and performance optimized
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/iamgowrishankar/portfolio.git
 
-### `npm run build`
+# Navigate to project directory
+cd portfolio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Start development server
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application will open at http://localhost:3000
 
-### `npm run eject`
+📦 Available Scripts
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run deploy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm test
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📁 Project Structure
+portfolio/
+├── public/
+│   ├── index.html
+│   ├── resume.pdf
+│   └── profile.jpg
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Hero.js
+│   │   ├── About.js
+│   │   ├── Experience.js
+│   │   ├── Projects.js
+│   │   ├── Skills.js
+│   │   └── Contact.js
+│   ├── App.js
+│   └── App.css
+└── package.json
+🎯 Sections
 
-## Learn More
+Home - Introduction and professional summary
+About - Background, education, and certifications
+Experience - Professional work history and achievements
+Projects - Featured development projects
+Skills - Technical competencies with proficiency levels
+Contact - Professional contact information
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔧 Customization
+To customize this portfolio for your own use:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Update personal information in components
+Replace profile.jpg with your professional photo
+Update resume.pdf with your resume
+Modify project details and experience
+Update contact information and social links
 
-### Code Splitting
+📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Mobile-first approach
+Optimized for all screen sizes
+Touch-friendly navigation
+Fast loading on mobile networks
 
-### Analyzing the Bundle Size
+🌟 Key Achievements Showcased
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Payment integration systems (Payrexx)
+Business management applications (ViviApp)
+E-commerce websites (WordPress/WooCommerce)
+CI/CD pipeline optimization
+ZUGFeRD XML e-invoicing compliance
 
-### Making a Progressive Web App
+📧 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Email: gowris073@gmail.com
+LinkedIn: linkedin.com/in/gowri-shankar
+Phone: +91 8124666608
+Location: Chennai, India
 
-### Advanced Configuration
+📄 License
+This project is open source and available under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ using React and modern web technologies

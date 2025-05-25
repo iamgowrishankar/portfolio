@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown, MapPin, Phone, Mail, Linkedin, Github, User } from 'lucide-react';
+import { ChevronDown, MapPin, Phone, Mail, Linkedin, Github } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -38,18 +38,25 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <button
-            onClick={() => scrollToSection('projects')}
-            className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 px-8 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105"
-          >
-            View My Work
-          </button>
-          <button
-            onClick={() => scrollToSection('contact')}
-            className="border border-blue-400 hover:bg-blue-400/10 px-8 py-3 rounded-full font-semibold transition-all duration-200"
-          >
-            Get In Touch
-          </button>
+            <button
+                onClick={() => scrollToSection('projects')}
+                className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 px-8 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105"
+            >
+                View My Work
+            </button>
+            <a
+                href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                download="GOWRI-SHANKAR-AK.pdf"
+                className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 text-white"
+            >
+                Download Resume
+            </a>
+            <button
+                onClick={() => scrollToSection('contact')}
+                className="border border-blue-400 hover:bg-blue-400/10 px-8 py-3 rounded-full font-semibold transition-all duration-200"
+            >
+                Get In Touch
+            </button>
         </div>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-sm text-gray-400 mb-8">
@@ -81,7 +88,7 @@ const Hero = () => {
             <Linkedin size={24} />
           </a>
           <a 
-            href="#" 
+            href="https://github.com/iamgowrishankar/portfolio" 
             className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
             title="GitHub"
           >

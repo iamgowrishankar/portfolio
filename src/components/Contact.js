@@ -28,19 +28,28 @@ const Contact = () => {
             </div>
             
             <div className="text-center">
-              <div className="bg-blue-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Phone className="text-blue-400" size={24} />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Phone</h3>
-              <p className="text-gray-400">+91 8124666608</p>
+                <div className="bg-blue-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Phone className="text-blue-400" size={24} />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">Phone</h3>
+                <a href="tel:+918124666608" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
+                    +91 8124666608
+                </a>
             </div>
             
             <div className="text-center">
-              <div className="bg-blue-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Linkedin className="text-blue-400" size={24} />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">LinkedIn</h3>
-              <p className="text-gray-400">linkedin.com/in/gowri-shankar</p>
+                <div className="bg-blue-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Linkedin className="text-blue-400" size={24} />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">LinkedIn</h3>
+                <a 
+                    href="https://www.linkedin.com/in/gowri-shankar-a-k-a8ba59147/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+                >
+                    linkedin.com/in/gowri-shankar
+                </a>
             </div>
           </div>
           <a

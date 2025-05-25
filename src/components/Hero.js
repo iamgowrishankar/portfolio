@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-20 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
         <div className="w-40 h-40 rounded-full mx-auto mb-6 overflow-hidden shadow-2xl border-4 border-white/20 hover:scale-105 transition-transform duration-300">

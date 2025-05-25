@@ -7,30 +7,30 @@ const Skills = () => {
       category: "Frontend Development",
       icon: <Code size={24} />,
       technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery", "React", "Vue.js"],
-      proficiency: 90
+      proficiency: 65
     },
     {
       category: "Backend Development",
       icon: <Settings size={24} />,
       technologies: ["Core PHP", "Laravel", "CakePHP", "WordPress", "REST API", "MVC Architecture"],
-      proficiency: 95
+      proficiency: 85
     },
     {
       category: "Database",
       icon: <Database size={24} />,
       technologies: ["MySQL", "Doctrine ORM", "Schema Design", "Query Optimization"],
-      proficiency: 88
+      proficiency: 80
     },
     {
       category: "Cloud & DevOps",
       icon: <Cloud size={24} />,
       technologies: ["AWS (EC2, S3)", "Docker", "Git", "Bitbucket", "CI/CD"],
-      proficiency: 82
+      proficiency: 70
     }
   ];
 
   return (
-    <section id="skills" className="py-20 px-4 bg-slate-900/50">
+    <section id="skills" className="py-20 px-4 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-16">
           <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">

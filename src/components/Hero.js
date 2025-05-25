@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown, MapPin, Phone, Mail, Linkedin, Github } from 'lucide-react';
+import { ChevronDown, MapPin, Phone, Mail, Linkedin, Github, User } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -12,9 +12,13 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
-          <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto mb-6 flex items-center justify-center text-4xl font-bold">
-            GS
-          </div>
+        <div className="w-40 h-40 rounded-full mx-auto mb-6 overflow-hidden shadow-2xl border-4 border-white/20 hover:scale-105 transition-transform duration-300">
+            <img 
+                src={`${process.env.PUBLIC_URL}/profile.png`}
+                alt="Gowri Shankar AK - Full Stack Developer"
+                className="w-full h-full object-cover"
+            />
+        </div>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -68,7 +72,7 @@ const Hero = () => {
             <Mail size={24} />
           </a>
           <a 
-            href="https://www.linkedin.com/in/gowri-shankar" 
+            href="https://www.linkedin.com/in/gowri-shankar-a-k-a8ba59147/" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-blue-400 transition-colors duration-200"

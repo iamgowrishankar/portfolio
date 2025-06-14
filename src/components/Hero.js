@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-20 text-white">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-20 py-20 text-white">
       <div className="max-w-4xl mx-auto bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-2xl border border-slate-700/50">
         <div className="text-center max-w-4xl mx-auto">
           <div className="mb-8">

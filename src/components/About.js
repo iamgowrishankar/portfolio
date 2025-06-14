@@ -63,7 +63,7 @@ const About = () => {
           {/* Card-based layout */}
           <div className="grid md:grid-cols-2 gap-8">
             {/* Education Card */}
-            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50">
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:transform hover:scale-105 transition-all duration-300">
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-blue-900/30 p-2 rounded-lg">
                   <GraduationCap className="text-blue-400" size={24} />
@@ -78,7 +78,7 @@ const About = () => {
             </div>
 
             {/* Core Competencies Card */}
-            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50">
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:transform hover:scale-105 transition-all duration-300">
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-blue-900/30 p-2 rounded-lg">
                   <Briefcase className="text-blue-400" size={24} />
@@ -95,7 +95,7 @@ const About = () => {
             </div>
 
             {/* Certifications Card */}
-            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50">
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:transform hover:scale-105 transition-all duration-300">
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-blue-900/30 p-2 rounded-lg">
                   <Award className="text-blue-400" size={24} />
@@ -113,7 +113,7 @@ const About = () => {
             </div>
 
             {/* Languages Card */}
-            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50">
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:transform hover:scale-105 transition-all duration-300">
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-blue-900/30 p-2 rounded-lg">
                   <Globe className="text-blue-400" size={24} />

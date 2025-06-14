@@ -30,7 +30,7 @@ const Experience = () => {
           </h2>
           
           {experience.map((exp, index) => (
-            <div key={index} className="bg-slate-800/50 rounded-xl p-8 mb-8">
+            <div key={index} className="bg-slate-800/50 rounded-xl p-8 mb-8 hover:transform hover:scale-105 transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-2">{exp.title}</h3>

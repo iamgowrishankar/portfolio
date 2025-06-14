@@ -33,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 min-h-screen">
       <Header activeSection={activeSection} />
       <Hero />
       <About />

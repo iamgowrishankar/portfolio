@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Payrexx Payment Integration",
-      description: "Integrated and managed comprehensive online payment solutions with secure transaction processing, multi-PSP support, and optimized checkout flows.",
+      description: "An enterprise-grade digital payment platform built on Symfony, delivering integrated and managed payment solutions to optimize checkout workflows and ensure secure transactions.",
       tech: [
         "PHP 8.2",
         "Symfony",

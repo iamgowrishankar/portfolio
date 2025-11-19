@@ -6,7 +6,7 @@ const Projects = () => {
       title: "Payrexx Payment Integration",
       description: "Integrated and managed comprehensive online payment solutions with secure transaction processing, multi-PSP support, and optimized checkout flows.",
       tech: [
-        "PHP 8.3",
+        "PHP 8.2",
         "Symfony",
         "MySQL",
         "Doctrine ORM",

@@ -32,7 +32,7 @@ const Projects = () => {
     {
       title: "ViviApp - Business Management System",
       description: "Backend application for Vivi Kola Switzerland managing Billing, CRM, and Production operations with comprehensive tracking and reporting.",
-      tech: ["CakePHP", "MySQL", "jQuery", "HTML5", "CSS3", "AWS"],
+      tech: ["CakePHP", "MySQL", "jQuery", "HTML5", "CSS3", "AWS", "Bitbucket"],
       achievements: [
         "Developed Billing Management module",
         "Integrated Google Calendar API for appointments",

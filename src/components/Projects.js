@@ -5,7 +5,22 @@ const Projects = () => {
     {
       title: "Payrexx Payment Integration",
       description: "Integrated and managed comprehensive online payment solutions with secure transaction processing, multi-PSP support, and optimized checkout flows.",
-      tech: ["PHP", "MySQL", "Doctrine ORM", "jQuery", "Vue.js", "Redis", "AWS"],
+      tech: [
+        "PHP 8.3",
+        "Symfony",
+        "MySQL",
+        "Doctrine ORM",
+        "jQuery",
+        "Vue3",
+        "Git",
+        "Bitbucket",
+        "AWS",
+        "Docker",
+        "Payrexx API (REST)",
+        "Redis",
+        "n8n",
+        "Elasticsearch"
+      ],
       achievements: [
         "Implemented ZUGFeRD XML e-invoicing compliance",
         "Optimized CI/CD pipeline with Docker",
